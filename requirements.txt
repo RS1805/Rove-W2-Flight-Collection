@@ -1,0 +1,5 @@
+pandas
+amadeus
+python-dotenv
+xlsxwriter
+
