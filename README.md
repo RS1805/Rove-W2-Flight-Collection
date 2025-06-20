@@ -1,5 +1,5 @@
 # Rove-W2-Flight-Collection
-This project collects flight data from five major international routes using the Amadeus API. It stores the data in a local SQLite database and exports a clean Excel report for analysis. Ideal for developers, researchers, and students interested in aviation data.
+This project collects flight data from five major international routes using the Amadeus API. It stores the data in a local SQLite database and exports a clean Excel report for analysis. 
 
 ---
 
@@ -22,23 +22,6 @@ This project collects flight data from five major international routes using the
 - Supports `.env` configuration for API credentials
 
 ---
-
-## 📁 File Structure
-
-```
-📂 Rove Flight Data Collection/
-│
-├── main.py                  # Main script to run everything
-├── .env                     # Your Amadeus API keys (not uploaded to GitHub)
-├── requirements.txt         # Python package dependencies
-├── flights_data.db          # (Auto-generated) Database file
-├── flight_data_July2025.xlsx # (Auto-generated) Excel export
-```
-
----
-
-## 🚀 Getting Started
-
 ### 1. Clone the Repository
 
 ```bash
@@ -61,8 +44,6 @@ CLIENT_KEY=your_amadeus_client_id
 CLIENT_SECRET=your_amadeus_client_secret
 ```
 
-> 🔐 **Do not share your `.env` file publicly.**
-
 ---
 
 ### 4. Run the Script
@@ -70,12 +51,6 @@ CLIENT_SECRET=your_amadeus_client_secret
 ```bash
 python main.py
 ```
-
-It will:
-- Fetch data from Amadeus
-- Store it in SQLite
-- Export it to Excel
-
 
 ## 🛠 Dependencies
 
